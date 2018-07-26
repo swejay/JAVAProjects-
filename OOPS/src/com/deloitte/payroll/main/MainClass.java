@@ -1,6 +1,9 @@
 package com.deloitte.payroll.main;
 
 import com.deloitte.payroll.Interns;
+
+
+
 import com.deloitte.payroll.Accounts;
 import com.deloitte.payroll.ConfirmedEmployee;
 import com.deloitte.payroll.ContractEmployee;
@@ -25,6 +28,6 @@ public class MainClass {
 		accounts.processSalary(employee);
 		
 		
-	
+
 }
 }
