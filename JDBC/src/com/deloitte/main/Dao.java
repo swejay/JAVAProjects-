@@ -6,8 +6,8 @@ public interface Dao<T> {
 
 	T get(long id);//retrieves one record
 	List<T> getAll();// to retrieve all records.
-	void save(T t);//exec an insert stmt. can be boolean
-	void update(T t,String[] params);//exec update stmt
-	void delete(T t);//exec delete stmt
+	void save(T t);//execute an insert statement. can be boolean
+	void update(T t,String[] params);//execute update statement
+	void delete(T t);//execute delete statement
 	
 }
